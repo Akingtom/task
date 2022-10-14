@@ -1,7 +1,20 @@
 
 #!bin/bash
-Sudo apt-get install figlet
-Figlet Tomilola
+
+mkdir Tomilola
+mkdir Biocomputing
+cd Biocomputing
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+mv wildtype.fna Tomilola
+rm wildtype.gbk.1
+grep 'tatatata' wildtype.fna
+grep 'tatatata' wildtype.fna > mutant
+$ clear && history
+ls $$ ls  ../Biocomputing
+sudo apt-get install figlet
+figlet Tomilola
 mkdir compare $$ cd compare
 wget https://www.bioinformatics.babraham.ac.uk/training/Introduction%20to%20Unix/unix_intro_data.tar.gz
 gunzip unix_intro_data.tar.gz
